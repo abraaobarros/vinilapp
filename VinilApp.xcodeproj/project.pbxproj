@@ -24,6 +24,7 @@
 		7BA6E9AD170131CA00C45E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA6E988170131CA00C45E98 /* Foundation.framework */; };
 		7BA6E9B5170131CA00C45E98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BA6E9B3170131CA00C45E98 /* InfoPlist.strings */; };
 		7BA6E9B8170131CA00C45E98 /* VinilAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA6E9B7170131CA00C45E98 /* VinilAppTests.m */; };
+		C0415473171DB5D1006BF257 /* HttpService.m in Sources */ = {isa = PBXBuildFile; fileRef = C0415472171DB5D1006BF257 /* HttpService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		7BA6E9B4170131CA00C45E98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BA6E9B6170131CA00C45E98 /* VinilAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VinilAppTests.h; sourceTree = "<group>"; };
 		7BA6E9B7170131CA00C45E98 /* VinilAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinilAppTests.m; sourceTree = "<group>"; };
+		C0415471171DB5D1006BF257 /* HttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpService.h; sourceTree = "<group>"; };
+		C0415472171DB5D1006BF257 /* HttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 		C041546D171DAE9F006BF257 /* Http */ = {
 			isa = PBXGroup;
 			children = (
+				C0415471171DB5D1006BF257 /* HttpService.h */,
+				C0415472171DB5D1006BF257 /* HttpService.m */,
 			);
 			name = Http;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 				7BA6E997170131CA00C45E98 /* AppDelegate.m in Sources */,
 				7BA6E9A3170131CA00C45E98 /* ViewController.m in Sources */,
 				7B343AC917013D3C00AED447 /* TableBaresView.m in Sources */,
+				C0415473171DB5D1006BF257 /* HttpService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

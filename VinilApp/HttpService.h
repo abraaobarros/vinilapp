@@ -10,4 +10,7 @@
 
 @interface HttpService : NSObject
 
+- (NSData *)post:(NSString *)url withPOSTString:(NSString *)postString;
+- (NSDictionary *)json:(NSString *)url withPOSTString:(NSString *)postString;
+
 @end
