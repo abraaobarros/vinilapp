@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B343AC917013D3C00AED447 /* TableBaresView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B343AC817013D3C00AED447 /* TableBaresView.m */; };
 		7B47E3DA171DB0F3006442E5 /* MusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47E3D9171DB0F3006442E5 /* MusicTableViewController.m */; };
 		7B47E3E0171DB7BB006442E5 /* MusicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47E3DF171DB7BB006442E5 /* MusicDetailViewController.m */; };
 		7BA6E987170131CA00C45E98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA6E986170131CA00C45E98 /* UIKit.framework */; };
@@ -20,7 +19,6 @@
 		7BA6E99B170131CA00C45E98 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA6E99A170131CA00C45E98 /* Default@2x.png */; };
 		7BA6E99D170131CA00C45E98 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA6E99C170131CA00C45E98 /* Default-568h@2x.png */; };
 		7BA6E9A0170131CA00C45E98 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA6E99E170131CA00C45E98 /* MainStoryboard.storyboard */; };
-		7BA6E9A3170131CA00C45E98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA6E9A2170131CA00C45E98 /* ViewController.m */; };
 		7BA6E9AB170131CA00C45E98 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA6E9AA170131CA00C45E98 /* SenTestingKit.framework */; };
 		7BA6E9AC170131CA00C45E98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA6E986170131CA00C45E98 /* UIKit.framework */; };
 		7BA6E9AD170131CA00C45E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA6E988170131CA00C45E98 /* Foundation.framework */; };
@@ -39,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B343AC717013D3C00AED447 /* TableBaresView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableBaresView.h; path = ../../vinilapp/VinilApp/TableBaresView.h; sourceTree = "<group>"; };
-		7B343AC817013D3C00AED447 /* TableBaresView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableBaresView.m; path = ../../vinilapp/VinilApp/TableBaresView.m; sourceTree = "<group>"; };
+		7B343AC717013D3C00AED447 /* TableBaresView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableBaresView.h; path = /Users/stefano/Documents/workspace/vinilapp/VinilApp/TableBaresView.h; sourceTree = "<absolute>"; };
+		7B343AC817013D3C00AED447 /* TableBaresView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableBaresView.m; path = /Users/stefano/Documents/workspace/vinilapp/VinilApp/TableBaresView.m; sourceTree = "<absolute>"; };
 		7B47E3D8171DB0F3006442E5 /* MusicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewController.h; sourceTree = "<group>"; };
 		7B47E3D9171DB0F3006442E5 /* MusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewController.m; sourceTree = "<group>"; };
 		7B47E3DE171DB7BA006442E5 /* MusicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailViewController.h; sourceTree = "<group>"; };
@@ -59,8 +57,8 @@
 		7BA6E99A170131CA00C45E98 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7BA6E99C170131CA00C45E98 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7BA6E99F170131CA00C45E98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7BA6E9A1170131CA00C45E98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7BA6E9A2170131CA00C45E98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BA6E9A1170131CA00C45E98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = /Users/stefano/Documents/workspace/vinilapp/VinilApp/ViewController.h; sourceTree = "<absolute>"; };
+		7BA6E9A2170131CA00C45E98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = /Users/stefano/Documents/workspace/vinilapp/VinilApp/ViewController.m; sourceTree = "<absolute>"; };
 		7BA6E9A9170131CA00C45E98 /* VinilAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinilAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA6E9AA170131CA00C45E98 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7BA6E9B2170131CA00C45E98 /* VinilAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VinilAppTests-Info.plist"; sourceTree = "<group>"; };
@@ -126,17 +124,14 @@
 		7BA6E98C170131CA00C45E98 /* VinilApp */ = {
 			isa = PBXGroup;
 			children = (
-				7B47E3D8171DB0F3006442E5 /* MusicTableViewController.h */,
-				7B47E3D9171DB0F3006442E5 /* MusicTableViewController.m */,
 				7BA6E995170131CA00C45E98 /* AppDelegate.h */,
 				7BA6E996170131CA00C45E98 /* AppDelegate.m */,
-				7BA6E99E170131CA00C45E98 /* MainStoryboard.storyboard */,
-				7B47E3DE171DB7BA006442E5 /* MusicDetailViewController.h */,
-				7B47E3DF171DB7BB006442E5 /* MusicDetailViewController.m */,
-				7B343AC717013D3C00AED447 /* TableBaresView.h */,
-				7B343AC817013D3C00AED447 /* TableBaresView.m */,
-				7BA6E9A1170131CA00C45E98 /* ViewController.h */,
-				7BA6E9A2170131CA00C45E98 /* ViewController.m */,
+				C0415467171DABE9006BF257 /* Controllers */,
+				C0415468171DABF0006BF257 /* Models */,
+				C041546B171DACB7006BF257 /* Views */,
+				C041546A171DAC0A006BF257 /* Helpers */,
+				C041546C171DAD67006BF257 /* StoryBoards */,
+				C0415469171DAC03006BF257 /* AppDelegate */,
 				7BA6E98D170131CA00C45E98 /* Supporting Files */,
 			);
 			path = VinilApp;
@@ -173,6 +168,68 @@
 				7BA6E9B3170131CA00C45E98 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0415467171DABE9006BF257 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B47E3DE171DB7BA006442E5 /* MusicDetailViewController.h */,
+				7B47E3DF171DB7BB006442E5 /* MusicDetailViewController.m */,
+				7B47E3D8171DB0F3006442E5 /* MusicTableViewController.h */,
+				7B47E3D9171DB0F3006442E5 /* MusicTableViewController.m */,
+				7BA6E9A2170131CA00C45E98 /* ViewController.m */,
+				7BA6E9A1170131CA00C45E98 /* ViewController.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C0415468171DABF0006BF257 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C0415469171DAC03006BF257 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7BA6E996170131CA00C45E98 /* AppDelegate.m */,
+				7BA6E995170131CA00C45E98 /* AppDelegate.h */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C041546A171DAC0A006BF257 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C041546D171DAE9F006BF257 /* Http */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C041546B171DACB7006BF257 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BA6E99E170131CA00C45E98 /* MainStoryboard.storyboard */,
+				7B343AC817013D3C00AED447 /* TableBaresView.m */,
+				7B343AC717013D3C00AED447 /* TableBaresView.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C041546C171DAD67006BF257 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				7BA6E99E170131CA00C45E98 /* MainStoryboard.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		C041546D171DAE9F006BF257 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Http;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +344,6 @@
 			files = (
 				7BA6E993170131CA00C45E98 /* main.m in Sources */,
 				7BA6E997170131CA00C45E98 /* AppDelegate.m in Sources */,
-				7BA6E9A3170131CA00C45E98 /* ViewController.m in Sources */,
-				7B343AC917013D3C00AED447 /* TableBaresView.m in Sources */,
 				7B47E3DA171DB0F3006442E5 /* MusicTableViewController.m in Sources */,
 				7B47E3E0171DB7BB006442E5 /* MusicDetailViewController.m in Sources */,
 			);
