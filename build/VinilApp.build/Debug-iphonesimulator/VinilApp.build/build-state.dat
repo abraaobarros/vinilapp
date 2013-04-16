@@ -1,0 +1,311 @@
+TVinilApp
+v7
+r0
+t385956289.823850
+cCheck dependencies
+cProcessInfoPlistFile /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/Info.plist VinilApp/VinilApp-Info.plist
+cProcessPCH /var/folders/qr/v2ljp4x127s2p8j5tqyll6v40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VinilApp-Prefix-chrdniveomikyvbzlzhdcqngcsiv/VinilApp-Prefix.pch.gch VinilApp/VinilApp-Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/main.o /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/AppDelegate.o /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/ViewController.o /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCopyStringsFile /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/en.lproj/InfoPlist.strings VinilApp/en.lproj/InfoPlist.strings
+cCpResource build/Debug-iphonesimulator/VinilApp.app/Default.png VinilApp/Default.png
+cCpResource build/Debug-iphonesimulator/VinilApp.app/Default@2x.png VinilApp/Default@2x.png
+cCpResource build/Debug-iphonesimulator/VinilApp.app/Default-568h@2x.png VinilApp/Default-568h@2x.png
+cCpResource build/Debug-iphonesimulator/VinilApp.app/en.lproj/MainStoryboard.storyboard VinilApp/en.lproj/MainStoryboard.storyboard
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h
+c000000005150FDFE0000000000000129
+t1364262398
+s297
+i<UIKit/UIKit.h>
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m
+c000000005150FDFE00000000000007EB
+t1364262398
+s2027
+i"AppDelegate.h"
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default-568h@2x.png
+c000000005150FDFE00000000000048A2
+t1364262398
+s18594
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default.png
+c000000005150FDFE000000000000198C
+t1364262398
+s6540
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default@2x.png
+c000000005150FDFE0000000000003EEB
+t1364262398
+s16107
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/ViewController.h
+c000000005150FDFE00000000000000EB
+t1364262398
+s235
+i<UIKit/UIKit.h>
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/ViewController.m
+c000000005150FDFE0000000000000201
+t1364262398
+s513
+i"ViewController.h"
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/VinilApp-Prefix.pch
+c000000005150FDFE000000000000013F
+t1364262398
+s319
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/en.lproj/InfoPlist.strings
+c000000005150FDFE000000000000002D
+t1364262398
+s45
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/en.lproj/MainStoryboard.storyboard
+c000000005150FDFE0000000000000603
+t1364262398
+s1539
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m
+c000000005150FDFE0000000000000164
+t1364262398
+s356
+i<UIKit/UIKit.h>
+i"AppDelegate.h"
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app
+t1364262428
+s272
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app.dSYM
+t2
+s0
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/Default-568h@2x.png
+t1364262428
+s18594
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/Default.png
+t1364262428
+s6540
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/Default@2x.png
+t1364262428
+s16107
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/Info.plist
+t1364262427
+s835
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/PkgInfo
+t1364262427
+s8
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/VinilApp
+t2
+s0
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/en.lproj/InfoPlist.strings
+t1364262428
+s42
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/en.lproj/MainStoryboard.storyboard
+t1364262428
+s1539
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/ViewController.o
+t1364262428
+s37036
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/VinilApp.LinkFileList
+c000000005150FE1B000000000000018B
+t1364262427
+s395
+
+N/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/qr/v2ljp4x127s2p8j5tqyll6v40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VinilApp-Prefix-chrdniveomikyvbzlzhdcqngcsiv/VinilApp-Prefix.pch.gch
+t1364262427
+s15490256
+
+NVinilApp/VinilApp-Info.plist
+c000000005150FDFE00000000000004CD
+t1364262398
+s1229
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies385956289#385956289#0(0"0(0#1#0"17195124480#0"0#
+
+CCompileC build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/AppDelegate.o /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s385956289.483586
+e385956289.823392
+r0
+xCompileC
+xbuild/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/AppDelegate.o
+x/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+occ1obj: warning: -Wuninitialized is not supported without -O
+oIn file included from /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m:9:
+o/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h:13: error: expected a property attribute before 'strong'
+lSLF07#2@71"Compile /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m385956289#385956289#0(271"cc1obj: warning: -Wuninitialized is not supported without -OIn file included from /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m:9:/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h:13: error: expected a property attribute before 'strong'2(22@43"-Wuninitialized is not supported without -O385956289#0#61#0(6@0"385956289#0#0#0#0#0"0(4@45"Expected a property attribute before 'strong'385956289#150#121#2(7@85"In file included from /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m385956289#18446744073709551615#0#0(6@63"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m385955198#9#0#9#0#0"0(13@112"Expected a property attribute before 'strong' in /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h385956289#18446744073709551615#0#0(6@63"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h385955198#13#0#13#0#0"0(6@63"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h385955198#13#0#13#0#19"expected * before *0(0#0#63"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m4320133120#1983"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-generated-files.hmap -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-own-target-headers.hmap -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-all-target-headers.hmap -iquote /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-project-headers.hmap -F/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/include -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/DerivedSources/i386 -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/DerivedSources -include /var/folders/qr/v2ljp4x127s2p8j5tqyll6v40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VinilApp-Prefix-chrdniveomikyvbzlzhdcqngcsiv/VinilApp-Prefix.pch -c /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.m -o /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/AppDelegate.o1#
+
+CCompileC build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/ViewController.o /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s385955228.059672
+e385955228.159175
+r1
+xCompileC
+xbuild/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/ViewController.o
+x/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+occ1obj: warning: -Wuninitialized is not supported without -O
+lSLF07#2@74"Compile /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/ViewController.m385955228#385955228#0(61"cc1obj: warning: -Wuninitialized is not supported without -O1(22@43"-Wuninitialized is not supported without -O385955228#0#61#0(6@0"385955228#0#0#0#0#0"0(0#0#66"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/ViewController.m17198244096#1989"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-generated-files.hmap -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-own-target-headers.hmap -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-all-target-headers.hmap -iquote /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-project-headers.hmap -F/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/include -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/DerivedSources/i386 -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/DerivedSources -include /var/folders/qr/v2ljp4x127s2p8j5tqyll6v40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VinilApp-Prefix-chrdniveomikyvbzlzhdcqngcsiv/VinilApp-Prefix.pch -c /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/ViewController.m -o /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/ViewController.o0#
+
+CCompileC build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/main.o /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s385956289.474708
+e385956289.818659
+r0
+xCompileC
+xbuild/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/main.o
+x/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+occ1obj: warning: -Wuninitialized is not supported without -O
+oIn file included from /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m:11:
+o/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h:13: error: expected a property attribute before 'strong'
+o/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m: In function 'main':
+o/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m:15: error: expected expression before '@' token
+lSLF07#2@64"Compile /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m385956289#385956289#0(448"cc1obj: warning: -Wuninitialized is not supported without -OIn file included from /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m:11:/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h:13: error: expected a property attribute before 'strong'/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m: In function 'main':/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m:15: error: expected expression before '@' token3(22@43"-Wuninitialized is not supported without -O385956289#0#61#0(6@0"385956289#0#0#0#0#0"0(4@45"Expected a property attribute before 'strong'385956289#144#121#2(7@78"In file included from /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m385956289#18446744073709551615#0#0(6@56"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m385955198#11#0#11#0#0"0(13@112"Expected a property attribute before 'strong' in /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h385956289#18446744073709551615#0#0(6@63"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h385955198#13#0#13#0#0"0(6@63"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/AppDelegate.h385955198#13#0#13#0#19"expected * before *0(4@36"Expected expression before '@' token385956289#343#105#0(6@56"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m385955198#15#0#15#0#19"expected * before *0(0#0#56"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m17204160512#1969"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-generated-files.hmap -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-own-target-headers.hmap -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-all-target-headers.hmap -iquote /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-project-headers.hmap -F/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/include -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/DerivedSources/i386 -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/DerivedSources -include /var/folders/qr/v2ljp4x127s2p8j5tqyll6v40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VinilApp-Prefix-chrdniveomikyvbzlzhdcqngcsiv/VinilApp-Prefix.pch -c /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/main.m -o /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/Objects-normal/i386/main.o1#
+
+CCopyStringsFile /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/en.lproj/InfoPlist.strings VinilApp/en.lproj/InfoPlist.strings
+s385955228.164966
+e385955228.292197
+r1
+xCopyStringsFile
+x/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/en.lproj/InfoPlist.strings
+xVinilApp/en.lproj/InfoPlist.strings
+lSLF07#2@40"Copy VinilApp/en.lproj/InfoPlist.strings385955228#385955228#0(0"0(0#0#76"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/en.lproj/InfoPlist.strings4320133120#497"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary VinilApp/en.lproj/InfoPlist.strings --outdir /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/en.lproj0#
+
+CCpResource build/Debug-iphonesimulator/VinilApp.app/Default-568h@2x.png VinilApp/Default-568h@2x.png
+s385955228.170083
+e385955228.199804
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/VinilApp.app/Default-568h@2x.png
+xVinilApp/Default-568h@2x.png
+lSLF07#2@33"Copy VinilApp/Default-568h@2x.png385955228#385955228#0(0"0(0#0#69"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default-568h@2x.png4320133120#493"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default-568h@2x.png /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app0#
+
+CCpResource build/Debug-iphonesimulator/VinilApp.app/Default.png VinilApp/Default.png
+s385955228.167079
+e385955228.198455
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/VinilApp.app/Default.png
+xVinilApp/Default.png
+lSLF07#2@25"Copy VinilApp/Default.png385955228#385955228#0(0"0(0#0#61"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default.png4320133120#485"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default.png /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app0#
+
+CCpResource build/Debug-iphonesimulator/VinilApp.app/Default@2x.png VinilApp/Default@2x.png
+s385955228.168424
+e385955228.199369
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/VinilApp.app/Default@2x.png
+xVinilApp/Default@2x.png
+lSLF07#2@28"Copy VinilApp/Default@2x.png385955228#385955228#0(0"0(0#0#64"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default@2x.png4320133120#488"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/Default@2x.png /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app0#
+
+CCpResource build/Debug-iphonesimulator/VinilApp.app/en.lproj/MainStoryboard.storyboard VinilApp/en.lproj/MainStoryboard.storyboard
+s385955228.172982
+e385955228.199521
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/VinilApp.app/en.lproj/MainStoryboard.storyboard
+xVinilApp/en.lproj/MainStoryboard.storyboard
+lSLF07#2@48"Copy VinilApp/en.lproj/MainStoryboard.storyboard385955228#385955228#0(0"0(0#0#84"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/en.lproj/MainStoryboard.storyboard4320133120#517"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/en.lproj/MainStoryboard.storyboard /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/en.lproj0#
+
+CGenerateDSYMFile /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app.dSYM /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/VinilApp
+r0
+
+CLd /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/VinilApp normal i386
+r0
+
+CProcessInfoPlistFile /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/Info.plist VinilApp/VinilApp-Info.plist
+s385955227.104039
+e385955227.114016
+r1
+xProcessInfoPlistFile
+x/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/Info.plist
+xVinilApp/VinilApp-Info.plist
+lSLF07#2@36"Process VinilApp/VinilApp-Info.plist385955227#385955227#0(0"0(0#0#69"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/VinilApp-Info.plist17203283968#497"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility VinilApp/VinilApp-Info.plist -genpkginfo /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app/Info.plist0#
+
+CProcessPCH /var/folders/qr/v2ljp4x127s2p8j5tqyll6v40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VinilApp-Prefix-chrdniveomikyvbzlzhdcqngcsiv/VinilApp-Prefix.pch.gch VinilApp/VinilApp-Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s385955227.114149
+e385955227.977958
+r1
+xProcessPCH
+x/var/folders/qr/v2ljp4x127s2p8j5tqyll6v40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VinilApp-Prefix-chrdniveomikyvbzlzhdcqngcsiv/VinilApp-Prefix.pch.gch
+xVinilApp/VinilApp-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+occ1obj: warning: -Wuninitialized is not supported without -O
+o/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/VinilApp-Prefix.pch:8:2: warning: #warning "This project uses features only available in iOS SDK 5.0 and later."
+lSLF07#2@39"Precompile VinilApp/VinilApp-Prefix.pch385955227#385955227#0(224"cc1obj: warning: -Wuninitialized is not supported without -O/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/VinilApp-Prefix.pch:8:2: warning: #warning "This project uses features only available in iOS SDK 5.0 and later."2(22@43"-Wuninitialized is not supported without -O385955227#0#61#0(6@0"385955227#0#0#0#0#0"0(22@78"#warning "This project uses features only available in iOS SDK 5.0 and later."385955227#61#163#0(6@69"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/VinilApp-Prefix.pch385955198#8#0#8#0#12"#warning "*"0(0#0#69"/Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/VinilApp-Prefix.pch4320133120#1858"    cd /Users/Gabriel/Desktop/VinilApp/vinilapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-generated-files.hmap -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-own-target-headers.hmap -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-all-target-headers.hmap -iquote /Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/VinilApp-project-headers.hmap -F/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/include -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/DerivedSources/i386 -I/Users/Gabriel/Desktop/VinilApp/vinilapp/build/VinilApp.build/Debug-iphonesimulator/VinilApp.build/DerivedSources -c /Users/Gabriel/Desktop/VinilApp/vinilapp/VinilApp/VinilApp-Prefix.pch -o /var/folders/qr/v2ljp4x127s2p8j5tqyll6v40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/VinilApp-Prefix-chrdniveomikyvbzlzhdcqngcsiv/VinilApp-Prefix.pch.gch0#
+
+CTouch /Users/Gabriel/Desktop/VinilApp/vinilapp/build/Debug-iphonesimulator/VinilApp.app
+r0
+
