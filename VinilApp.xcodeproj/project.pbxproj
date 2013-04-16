@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B343AC717013D3C00AED447 /* TableBaresView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableBaresView.h; path = ../../vinilapp/VinilApp/TableBaresView.h; sourceTree = "<group>"; };
-		7B343AC817013D3C00AED447 /* TableBaresView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableBaresView.m; path = ../../vinilapp/VinilApp/TableBaresView.m; sourceTree = "<group>"; };
+		7B343AC717013D3C00AED447 /* TableBaresView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableBaresView.h; sourceTree = "<group>"; };
+		7B343AC817013D3C00AED447 /* TableBaresView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableBaresView.m; sourceTree = "<group>"; };
 		7BA6E982170131CA00C45E98 /* VinilApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinilApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA6E986170131CA00C45E98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7BA6E988170131CA00C45E98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,13 +120,12 @@
 		7BA6E98C170131CA00C45E98 /* VinilApp */ = {
 			isa = PBXGroup;
 			children = (
-				7BA6E995170131CA00C45E98 /* AppDelegate.h */,
-				7BA6E996170131CA00C45E98 /* AppDelegate.m */,
-				7BA6E99E170131CA00C45E98 /* MainStoryboard.storyboard */,
-				7B343AC717013D3C00AED447 /* TableBaresView.h */,
-				7B343AC817013D3C00AED447 /* TableBaresView.m */,
-				7BA6E9A1170131CA00C45E98 /* ViewController.h */,
-				7BA6E9A2170131CA00C45E98 /* ViewController.m */,
+				C0415467171DABE9006BF257 /* Controllers */,
+				C0415468171DABF0006BF257 /* Models */,
+				C041546B171DACB7006BF257 /* Views */,
+				C041546A171DAC0A006BF257 /* Helpers */,
+				C041546C171DAD67006BF257 /* StoryBoards */,
+				C0415469171DAC03006BF257 /* AppDelegate */,
 				7BA6E98D170131CA00C45E98 /* Supporting Files */,
 			);
 			path = VinilApp;
@@ -163,6 +162,63 @@
 				7BA6E9B3170131CA00C45E98 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0415467171DABE9006BF257 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BA6E9A2170131CA00C45E98 /* ViewController.m */,
+				7BA6E9A1170131CA00C45E98 /* ViewController.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C0415468171DABF0006BF257 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C0415469171DAC03006BF257 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7BA6E996170131CA00C45E98 /* AppDelegate.m */,
+				7BA6E995170131CA00C45E98 /* AppDelegate.h */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C041546A171DAC0A006BF257 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C041546D171DAE9F006BF257 /* Http */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C041546B171DACB7006BF257 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B343AC817013D3C00AED447 /* TableBaresView.m */,
+				7B343AC717013D3C00AED447 /* TableBaresView.h */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C041546C171DAD67006BF257 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				7BA6E99E170131CA00C45E98 /* MainStoryboard.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		C041546D171DAE9F006BF257 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Http;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
