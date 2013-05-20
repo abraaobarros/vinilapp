@@ -7,11 +7,23 @@
 //
 
 #import "ProfileViewController.h"
+#import "MusicTableViewController.h"
+#import "PlaylistTableViewController.h"
 
-@interface ProfileViewController ()
-@end
+@implementation ProfileViewController
 
-@implementation ProfileViewController {
+- (void)viewDidLoad {
+    restaurantNameLabel.text = _restaurantName;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"ShowMusicList"]) {
+        MusicTableViewController *vc = [segue destinationViewController];
+        vc.restaurantId = _restaurantId;
+    } else if ([segue.identifier isEqualToString:@"ShowPlaylist"]) {
+        PlaylistTableViewController *vc = [segue destinationViewController];
+        vc.restaurantId = _restaurantId;
+    }
 }
 
 @end

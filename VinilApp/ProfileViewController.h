@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ProfileViewController : UIViewController {
-    
+    IBOutlet UILabel *restaurantNameLabel;
 }
 
+@property (nonatomic, weak) IBOutlet NSString *restaurantId;
+@property (nonatomic, weak) IBOutlet NSString *restaurantName;
 
 @end

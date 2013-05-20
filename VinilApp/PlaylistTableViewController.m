@@ -1,31 +1,32 @@
 //
-//  MusicTableViewController.m
+//  PlaylistTableViewController.m
 //  VinilApp
 //
 //  Created by Abraao Barros Laceda on 16/04/13.
 //  Copyright (c) 2013 Abraao Barros Laceda. All rights reserved.
 //
 
-#import "MusicTableViewController.h"
+#import "PlaylistTableViewController.h"
 #import "MusicTableCell.h"
 
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-#define urlPrefix @"http://vinilapp.herokuapp.com/api/musics/"
+//#define kjsonURL [NSURL URLWithString: @"http://dl.dropboxusercontent.com/u/28158427/vinilapp/playlist.x"]
+#define urlPrefix @"http://localhost/~IgorBarroso/vinilapp/playlist.php?id="
 
-@interface MusicTableViewController ()
+@interface PlaylistTableViewController ()
 
 @end
 
-@implementation MusicTableViewController {
+@implementation PlaylistTableViewController {
     NSMutableArray *jsonResults;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *URL = [NSString stringWithFormat:@"%@%@%@", urlPrefix, _restaurantId, @".json"];
+    NSString *URL = [NSString stringWithFormat:@"%@%@", urlPrefix, _restaurantId];
     NSURL *kjsonURL = [NSURL URLWithString:URL];
-
+    
     dispatch_async(kBgQueue, ^{
         NSData* data = [NSData dataWithContentsOfURL:kjsonURL];
         [self performSelectorOnMainThread:@selector(fetchedData:) withObject:data waitUntilDone:YES];
@@ -36,7 +37,7 @@
     NSError* error;
     NSDictionary* json = [NSJSONSerialization JSONObjectWithData:responseData options:kNilOptions error:&error];
     
-    jsonResults = [json objectForKey:@"musics"];
+    jsonResults = [json objectForKey:@"playlist"];
     
     [self.tableView reloadData];
 }
@@ -75,33 +76,8 @@
     return cell;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-}
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self.tableView deselectRowAtIndexPath:indexPath animated:NO];
-    
-    UIAlertView *alert = [[UIAlertView alloc] init];
-	[alert setTitle:@"Bon Jovi"];
-	[alert setMessage:@"You Give Love A Bad Name"];
-	[alert setDelegate:self];
-	[alert addButtonWithTitle:@"Toca aí!"];
-	[alert addButtonWithTitle:@"Não"];
-	[alert show];
-
-}
-
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-	if (buttonIndex == 0) {
-        UIAlertView *alert = [[UIAlertView alloc] init];
-        [alert setMessage:@"Sua música foi adicionada à playlist"];
-        [alert addButtonWithTitle:@"Ok"];
-        [alert show];
-	} else if (buttonIndex == 1) {
-		// No
-	}
+    [self.tableView deselectRowAtIndexPath:indexPath animated:NO];  
 }
 
 @end
-

@@ -6,26 +6,21 @@
 //  Copyright (c) 2013 Igor R. Barroso. All rights reserved.
 //
 
-#import "PlaceDetailViewController.h"
 #import "PlacesTableViewController.h"
 #import "ProfileViewController.h"
+#import "PlacesTableCell.h"
 
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
-#define kjsonURL [NSURL URLWithString: @"http://dl.dropboxusercontent.com/u/28158427/vinilapp/locals.x"]
+#define kjsonURL [NSURL URLWithString: @"http://vinilapp.herokuapp.com/api/bars.json"]
 
 @interface PlacesTableViewController ()
+
 @end
 
 @implementation PlacesTableViewController {
     NSMutableArray *jsonResults;
-}
-
-- (id)initWithStyle:(UITableViewStyle)style {
-    self = [super initWithStyle:style];
-    if (self) {
-        // custom init
-    }
-    return self;
+    NSString *selectedId;
+    NSString *selectedName;
 }
 
 - (void)viewDidLoad {
@@ -41,7 +36,7 @@
     NSError* error;
     NSDictionary* json = [NSJSONSerialization JSONObjectWithData:responseData options:kNilOptions error:&error];
     
-    jsonResults = [json objectForKey:@"locals"];
+    jsonResults = [json objectForKey:@"bars"];
     
     [self.tableView reloadData];
 }
@@ -59,35 +54,40 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    PlacesTableCell *cell = (PlacesTableCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (cell == nil) {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"PlacesTableCell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
+    }
     
     NSDictionary *placesdict = [jsonResults objectAtIndex:indexPath.row];
     
+    NSString *IdString = [NSString stringWithFormat:@"%@", [placesdict objectForKey:@"id"]];
     NSString *NameString = [placesdict objectForKey:@"name"];
-    NSString *AddressString = [placesdict objectForKey:@"address"];
     
-    cell.textLabel.text = NameString;
-    cell.detailTextLabel.text = AddressString;
+    cell.idLabel.text = IdString;
+    cell.nameLabel.text = NameString;
     
     return cell;
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([segue.identifier isEqualToString:@"showPlaceDetail"]) {
-        ProfileViewController* vc = [[ProfileViewController alloc] init];
-        UITabBarController* tbc = [segue destinationViewController];
-        vc = (ProfileViewController *)[[tbc customizableViewControllers] objectAtIndex:0];
-    }
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    PlacesTableCell *cell = (PlacesTableCell *)[tableView cellForRowAtIndexPath:indexPath];
+    [self performSegueWithIdentifier:@"RestaurantSelected" sender:cell];
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-    //
-    //     MusicTableViewController *detailViewController = [[MusicTableViewController alloc] init];
-    //     // ...
-    //     // Pass the selected object to the new view controller.
-    //     [self.navigationController pushViewController:detailViewController animated:YES];
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"RestaurantSelected"]) {
+        PlacesTableCell *cell = (PlacesTableCell *)sender;
+        
+        ProfileViewController *profile = [segue destinationViewController];
+        profile.restaurantId = cell.idLabel.text;
+        profile.restaurantName = cell.nameLabel.text;
+    }
 }
 
 

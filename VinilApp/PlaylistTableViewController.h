@@ -1,5 +1,5 @@
 //
-//  MusicTableViewController.h
+//  PlaylistTableViewController.h
 //  VinilApp
 //
 //  Created by Abraao Barros Laceda on 16/04/13.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MusicTableViewController : UITableViewController{
-    
+@interface PlaylistTableViewController : UITableViewController{
+    IBOutlet UILabel *number;
+    IBOutlet UILabel *title;
+    IBOutlet UILabel *author;
 }
 
 @property (nonatomic, weak) IBOutlet NSString *restaurantId;
