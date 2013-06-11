@@ -66,11 +66,13 @@
     NSDictionary *placesdict = [jsonResults objectAtIndex:indexPath.row];
     
     NSString *TitleString = [placesdict objectForKey:@"title"];
-    NSString *AuthorString = [placesdict objectForKey:@"author"];
+    NSString *AuthorString = [placesdict objectForKey:@"artist"];
+    NSNumber *Hash = (NSNumber *)[placesdict objectForKey:@"hash"];
     
     cell.numberLabel.text = [NSString stringWithFormat:@"%d", indexPath.row + 1];
     cell.titleLabel.text = TitleString;
     cell.authorLabel.text = AuthorString;
+    cell.idLabel.text = [Hash stringValue];
     
     return cell;
 }
@@ -82,9 +84,17 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self.tableView deselectRowAtIndexPath:indexPath animated:NO];
     
+    NSDictionary *placesdict = [jsonResults objectAtIndex:indexPath.row];
+    
+    NSString *TitleString = [placesdict objectForKey:@"title"];
+    NSString *AuthorString = [placesdict objectForKey:@"artist"];
+    NSNumber *Hash = (NSNumber *)[placesdict objectForKey:@"hash"];
+    
+    self.musicId = [Hash stringValue];
+    
     UIAlertView *alert = [[UIAlertView alloc] init];
-	[alert setTitle:@"Bon Jovi"];
-	[alert setMessage:@"You Give Love A Bad Name"];
+	[alert setTitle:TitleString];
+	[alert setMessage:AuthorString];
 	[alert setDelegate:self];
 	[alert addButtonWithTitle:@"Toca aí!"];
 	[alert addButtonWithTitle:@"Não"];
@@ -96,7 +106,7 @@
 	if (buttonIndex == 0) {
         UIAlertView *alert = [[UIAlertView alloc] init];
         [alert setMessage:@"Sua música foi adicionada à playlist"];
-        [alert addButtonWithTitle:@"Ok"];
+        [alert addButtonWithTitle:self.musicId];
         [alert show];
 	} else if (buttonIndex == 1) {
 		// No
