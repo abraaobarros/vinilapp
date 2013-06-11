@@ -13,6 +13,7 @@
 }
 
 @property (nonatomic, weak) IBOutlet NSString *restaurantId;
-@property (nonatomic, weak) IBOutlet NSString *musicId;
+
+extern const char musicId;
 
 @end

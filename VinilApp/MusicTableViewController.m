@@ -8,6 +8,7 @@
 
 #import "MusicTableViewController.h"
 #import "MusicTableCell.h"
+#import <objc/runtime.h>
 
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 #define urlPrefix @"http://vinilapp.herokuapp.com/api/musics/"
@@ -15,6 +16,8 @@
 @interface MusicTableViewController ()
 
 @end
+
+const char musicId;
 
 @implementation MusicTableViewController {
     NSMutableArray *jsonResults;
@@ -90,8 +93,6 @@
     NSString *AuthorString = [placesdict objectForKey:@"artist"];
     NSNumber *Hash = (NSNumber *)[placesdict objectForKey:@"hash"];
     
-    self.musicId = [Hash stringValue];
-    
     UIAlertView *alert = [[UIAlertView alloc] init];
 	[alert setTitle:TitleString];
 	[alert setMessage:AuthorString];
@@ -99,14 +100,17 @@
 	[alert addButtonWithTitle:@"Toca aí!"];
 	[alert addButtonWithTitle:@"Não"];
 	[alert show];
-
+    
+    objc_setAssociatedObject(alert, &musicId, [Hash stringValue], OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
 	if (buttonIndex == 0) {
+
+        
         UIAlertView *alert = [[UIAlertView alloc] init];
         [alert setMessage:@"Sua música foi adicionada à playlist"];
-        [alert addButtonWithTitle:self.musicId];
+        [alert addButtonWithTitle:objc_getAssociatedObject(alertView, &musicId)];
         [alert show];
 	} else if (buttonIndex == 1) {
 		// No
