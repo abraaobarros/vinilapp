@@ -106,14 +106,39 @@ const char musicId;
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
 	if (buttonIndex == 0) {
-
-        
         UIAlertView *alert = [[UIAlertView alloc] init];
         [alert setMessage:@"Sua música foi adicionada à playlist"];
-        [alert addButtonWithTitle:objc_getAssociatedObject(alertView, &musicId)];
+        [alert addButtonWithTitle:@"Ok"];
         [alert show];
-	} else if (buttonIndex == 1) {
-		// No
+        
+        NSString *post = [NSString stringWithFormat:@"%@%@%@%@", @"bar=", self.restaurantId, @"&music=", objc_getAssociatedObject(alertView, &musicId)];
+        NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+        
+        NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
+        
+        NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+        [request setURL:[NSURL URLWithString:@"http://vinilapp.herokuapp.com/api/vote"]];
+//        [request setURL:[NSURL URLWithString:@"http://localhost/~IgorBarroso/vinil.php"]];
+        [request setHTTPMethod:@"POST"];
+        [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+        [request setValue:@"application/x-www-form-urlencoded charset=utf-8" forHTTPHeaderField:@"Content-Type"];      
+        [request setHTTPBody:postData];
+        
+        NSError * err = [[NSError alloc] init];
+        NSHTTPURLResponse *response = [[NSHTTPURLResponse alloc] init];
+        
+        NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request
+                                                                      delegate:self];
+        
+        [connection start];
+        
+        
+        //NSData *receiveData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&err];
+        //NSLog(@"%@",receiveData );
+//        if (connection) {
+//            NSData *receivedData = [NSMutableData data];
+//            NSLog(@"data: %@", receivedData);
+//        }
 	}
 }
 

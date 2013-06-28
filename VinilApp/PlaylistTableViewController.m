@@ -11,7 +11,9 @@
 
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
 //#define kjsonURL [NSURL URLWithString: @"http://dl.dropboxusercontent.com/u/28158427/vinilapp/playlist.x"]
-#define urlPrefix @"http://localhost/~IgorBarroso/vinilapp/playlist.php?id="
+//#define urlPrefix @"http://localhost/~IgorBarroso/vinilapp/playlist.php?id="
+#define urlPrefix @"http://vinilapp.herokuapp.com/api/musics/"
+
 
 @interface PlaylistTableViewController ()
 
@@ -24,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *URL = [NSString stringWithFormat:@"%@%@", urlPrefix, _restaurantId];
+    NSString *URL = [NSString stringWithFormat:@"%@%@.json", urlPrefix, _restaurantId];
     NSURL *kjsonURL = [NSURL URLWithString:URL];
     
     dispatch_async(kBgQueue, ^{
@@ -36,8 +38,15 @@
 - (void)fetchedData:(NSData *)responseData {
     NSError* error;
     NSDictionary* json = [NSJSONSerialization JSONObjectWithData:responseData options:kNilOptions error:&error];
+    NSMutableArray* json_r = [json objectForKey:@"musics"];
+    jsonResults = [[NSMutableArray alloc] init];
+    for (int i=0; i < json_r.count; i++) {
+        if ([[[json_r objectAtIndex:i] objectForKey:@"voted"] boolValue] == TRUE) {
+            [jsonResults addObject:[json_r objectAtIndex:i]];
+        }
+    }
     
-    jsonResults = [json objectForKey:@"playlist"];
+    //jsonResults = ;
     
     [self.tableView reloadData];
 }
@@ -67,11 +76,12 @@
     NSDictionary *placesdict = [jsonResults objectAtIndex:indexPath.row];
     
     NSString *TitleString = [placesdict objectForKey:@"title"];
-    NSString *AuthorString = [placesdict objectForKey:@"author"];
-    
+    NSString *AuthorString = [placesdict objectForKey:@"artist"];
+    NSNumber *Hash = (NSNumber *)[placesdict objectForKey:@"hash"];
     cell.numberLabel.text = [NSString stringWithFormat:@"%d", indexPath.row + 1];
     cell.titleLabel.text = TitleString;
     cell.authorLabel.text = AuthorString;
+    cell.idLabel.text = [Hash stringValue];
     
     return cell;
 }
@@ -80,4 +90,7 @@
     [self.tableView deselectRowAtIndexPath:indexPath animated:NO];  
 }
 
+- (IBAction)refresh:(id)sender {
+    [self.tableView reloadData];
+}
 @end
